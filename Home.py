@@ -5,7 +5,7 @@ from PIL import Image
 import model.kdrama_model as km
 #import model.anime_model as am
 import model.movie_model as mm
-import model.tvseries_model as tm
+#import model.tvseries_model as tm
 
 main_img = Image.open('./data/images/movie3.jpg')
 
@@ -34,11 +34,11 @@ def tableDisplay(tabList,col):
     st.table(df)
 
 st.write("""
-#### Quick suggeitions!!
+#### Quick suggestions!!
 """)
 randList=[]
 randList.append([', '.join(mm.getRandomSuggestion(2)),'Movie'])
-randList.append([', '.join(tm.getRandomSuggestion(2)),'Series'])
+#randList.append([', '.join(tm.getRandomSuggestion(2)),'Series'])
 randList.append([', '.join(km.getRandomSuggestion(2)),'K-drama'])
 #randList.append([', '.join(am.getRandomSuggestion(2)),'Anime'])
 tableDisplay(randList,'Type')

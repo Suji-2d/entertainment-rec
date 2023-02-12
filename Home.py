@@ -13,8 +13,8 @@ st.write("""
 # Enternainment recommender
 #### Having struggle choosing what to watch next !?
 
-#####Select the type of entertainment from the side-bar,  
-#####Choose your faveriote movie/series and get recommend to similar ones. 
+##### Select the type of entertainment from the side-bar,  
+##### Choose your faveriote movie/series and Get recommend to similar ones. 
 """)
 
 

@@ -1,6 +1,6 @@
 # Entertainment-rec
 
-Have Used **Cosin similiraty** and **Content-base recommendation method**
+Have Used **Cosin similiraty** and **Content-base recommendation method** to suggest 10 movive/series based on the user selected movie/series.  
 
 Future work: complete anime gerne integration and improve loading time
 

@@ -24,7 +24,6 @@ Explore the top 10 recommendations based on your selection.
 Note
 This implementation serves as a foundational recommendation system. Users are encouraged to customize the code and dataset for improved accuracy and relevance. Happy watching! 🍿
 
-Deployment platform: Stremlit  
-App-link: https://suji-2d-entertainment-rec-home-j85wxs.streamlit.app/  (APP may take little time to load)
+*App-link*: https://suji-2d-entertainment-rec-home-j85wxs.streamlit.app/  (APP may take little time to load)
 
-BUG: In movies data set 'Scream', 'Spider-Man' movie name have duplicate issue - remove duplicare enteries in all data set
+*BUG*: In movies data set 'Scream', 'Spider-Man' movie name have duplicate issue - remove duplicare enteries in all data set
